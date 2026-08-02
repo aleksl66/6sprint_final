@@ -1,7 +1,7 @@
 package service
 
 import (
-	"pkg/morse"
+	"myServ/pkg/morse"
 	"strings"
 )
 

@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"internal/service"
+	"myServ/internal/service"
 )
 
 // IndexHandler возвращает содержимое index.html
@@ -32,7 +32,7 @@ func UploadHandler(logger *log.Logger) http.HandlerFunc {
 		}
 
 		// Получаем файл из формы
-		file, header, err := r.FormFile("file")
+		file, header, err := r.FormFile("myFile")
 		if err != nil {
 			logger.Println("Ошибка получения файла:", err)
 			http.Error(w, "Файл не найден в форме", http.StatusBadRequest)

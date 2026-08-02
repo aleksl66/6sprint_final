@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"internal/handlers"
+	"myServ/internal/handlers"
 )
 
 // Server содержит логгер и HTTP-сервер

@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"internal/server"
+	"myServ/internal/server"
 )
 
 func main() {
