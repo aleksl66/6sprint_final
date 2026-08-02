@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"myServ/internal/handlers"
+	"github.com/Yandex-Practicum/go1fl-sprint6-final/internal/handlers"
 )
 
 // Server содержит логгер и HTTP-сервер

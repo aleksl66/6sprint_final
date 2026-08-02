@@ -1,7 +1,7 @@
 package service
 
 import (
-	"myServ/pkg/morse"
+	"github.com/Yandex-Practicum/go1fl-sprint6-final/pkg/morse"
 	"strings"
 )
 

@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"myServ/internal/service"
+	"github.com/Yandex-Practicum/go1fl-sprint6-final/internal/service"
 )
 
 // IndexHandler возвращает содержимое index.html
